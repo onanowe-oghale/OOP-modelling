@@ -28,7 +28,7 @@ class Participant:
                 return self.choice
                 
     def increment_point(self):
-        self.points =+1
+        self.points +=1
 
     def toNumerical(self):
         convert = {
